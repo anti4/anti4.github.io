@@ -45,12 +45,12 @@ var vector = {
     return Math.atan2(this._y, this._x);
   },
 
-  add: function(v2) {
-    return vector.create(this._x + v2.getX(), this._y + v2.getY());
+  add: function(vector2) {
+    return vector.create(this._x + vector2.getX(), this._y + vector2.getY());
   },
 
-  substract: function(v2) {
-    return vector.create(this._x - v2.getX(), this._y - v2.gety());
+  substract: function(vector2) {
+    return vector.create(this._x - vector2.getX(), this._y - vector2.gety());
   },
 
   scale: function(value) {
