@@ -28,17 +28,17 @@ var particle = {
     context.arc(this.position.getX(), this.position.getY(), this.radius, 0, Math.PI * 2, false);
     context.fill();
 
-    /* context.beginPath();
+    context.beginPath();
     context.strokeStyle = "green";
     context.moveTo(this.position.getX(), this.position.getY());
-    context.lineTo(this.position.getX() + this.velocity.getX() * 5, this.position.getY() + this.velocity.getY() * 5);
+    context.lineTo(this.position.getX() + this.velocity.getX() * 4, this.position.getY() + this.velocity.getY() * 4);
     context.stroke();
 
     context.beginPath();
     context.strokeStyle = "blue";
     context.moveTo(this.position.getX(), this.position.getY());
-    context.lineTo(this.position.getX() + this.acceleration.getX() * 300, this.position.getY() + this.acceleration.getY() * 300);
-    context.stroke(); */
+    context.lineTo(this.position.getX() + this.acceleration.getX() * 40, this.position.getY() + this.acceleration.getY() * 40);
+    context.stroke();
   },
 
   setTargetAttraction: function(angle, value) {
