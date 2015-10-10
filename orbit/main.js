@@ -22,7 +22,7 @@ window.onload = function() {
     context.clearRect(-width / 2, -height / 2, width, height);
 
     context.beginPath();
-    context.arc(0, 0, 30, 0, Math.PI * 2, false);
+    context.arc(0, 0, 25, 0, Math.PI * 2, false);
     context.fill();
 
     for (var i = 0; i < numParticles; i++) {
