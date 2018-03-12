@@ -6,8 +6,7 @@
     var s = " .,-~:;=!*#$@";
     var cols = 215;
     var rows = 65;
-		console.log(cols);
-    var w = 3;
+    var w = 3.7;
     var h = w * (rows / cols) * 1.7;
     var dx = w / cols;
     var dy = h / rows;
